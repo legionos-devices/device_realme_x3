@@ -39,3 +39,7 @@ ro.telephony.default_network=22,22
 
 # Zygote Preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Enable blurs
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
