@@ -95,6 +95,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
