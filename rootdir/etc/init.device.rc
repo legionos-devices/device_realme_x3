@@ -68,9 +68,6 @@ on fs
     mount ext4 /dev/block/mapper/oppo_product /mnt/vendor/oppo_product ro
 
 on post-fs
-    mount none /oppo_product/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
-    mount none /oppo_product/etc/audio_policy_volumes.xml /vendor/etc/audio_policy_volumes.xml bind
-    mount none /oppo_product/etc/default_volume_tables.xml /vendor/etc/default_volume_tables.xml bind
     mount none /vendor/lost+found /vendor/overlay bind
 
 on property:sys.boot_completed=1
