@@ -124,8 +124,8 @@ on property:vendor.post_boot.parsed=1
 
     # Setup schedutil hispeed freq
     write /sys/devices/system/cpu/cpufreq/policy0/schedutil/hispeed_freq 1785600
-    write /sys/devices/system/cpu/cpufreq/policy4/schedutil/hispeed_freq 2016000
-    write /sys/devices/system/cpu/cpufreq/policy7/schedutil/hispeed_freq 2323200
+    write /sys/devices/system/cpu/cpufreq/policy4/schedutil/hispeed_freq 2419200
+    write /sys/devices/system/cpu/cpufreq/policy7/schedutil/hispeed_freq 2956800
 
     # Configure llccbw and ddrbw max_freq
     write /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/max_freq 15258
