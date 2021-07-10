@@ -17,10 +17,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PACKAGES += \
     AntHalService
 
-# Display
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
 # Doze
 PRODUCT_PACKAGES += \
     RealmeDoze
