@@ -11,6 +11,9 @@ persist.vendor.btstack.enable.twsplus=true
 persist.vendor.btstack.enable.twsplussho=true
 persist.vendor.service.bdroid.soc.alwayson=true
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Camera
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 persist.vendor.camera.privapp.list=com.android.camera,com.oppo.camera,org.codeaurora.snapcam
