@@ -64,3 +64,7 @@ TapSlop=1px
 
 # VSync for CPU rendered app
 debug.cpurend.vsync=false
+
+# IORAP
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
