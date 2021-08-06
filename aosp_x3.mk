@@ -21,12 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-# Inherit common WaveOS configuration
+# Inherit common PixelExperience configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/wave/configs/common.mk)
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := wave_x3
+PRODUCT_NAME := aosp_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := X3
