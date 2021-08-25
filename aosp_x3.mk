@@ -26,6 +26,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+
 # Device identifier
 PRODUCT_NAME := aosp_x3
 PRODUCT_DEVICE := x3
@@ -33,3 +34,8 @@ PRODUCT_BRAND := realme
 PRODUCT_MODEL := X3
 PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
+
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys
