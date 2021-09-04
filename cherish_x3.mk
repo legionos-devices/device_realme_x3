@@ -21,14 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-# Inherit common PixelExperience configuration
+# Inherit some common CherishOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+WITH_GMS := true
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := aosp_x3
+PRODUCT_NAME := cherish_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := X3

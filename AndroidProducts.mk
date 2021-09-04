@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_x3.mk
+    $(LOCAL_DIR)/cherish_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_x3-user \
-    aosp_x3-userdebug \
-    aosp_x3-eng
+    cherish_x3-user \
+    cherish_x3-userdebug \
+    cherish_x3-eng
