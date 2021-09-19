@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_x3.mk
+    $(LOCAL_DIR)/legion_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_x3-user \
-    cherish_x3-userdebug \
-    cherish_x3-eng
+    legion_x3-user \
+    legion_x3-userdebug \
+    legion_x3-eng
